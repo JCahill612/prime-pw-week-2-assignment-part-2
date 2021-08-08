@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to Dane as a name.
+// We check if the name is strictly equal to Mary. If it is, console.log "Hi, Mary!" will run 
+// If the name is not strictly equal to Mary, the console.log "How do you do?" will run
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable secret
+// We make a variable called code and set it to 123 as code
+// if the code is strictly equal to 123, the variable secret will be set as "secret".
+// if the code is strictly equal to 123, the variable code will be set to code times 2
+// if the code is greater than 250, the variable secret will be set as "duper".
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true as isStudent.
+// We make a variable called age and set it to 34 as age.
+// We make a variable called zip and set it to 55407 as zip.
+// if the isStudent is true and the zip is greater than 8000 the console.log "Youre a student on the West Coast!" will run
+// if the isStudent is false or the age is less than 30 the console.log "What are your hobbies?" will run
+// if the isStudent is strictly true the console.log "Welcome to Prime!" will run
+// otherwise console.log "How about the weather?" will run
 
 //CODE
 /*
@@ -130,12 +134,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// Fix - colorOne = 'blue'
+// Fix - colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // Fix colorTwo = 'purple';
 }
 */
 
@@ -147,6 +154,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Fix add parenthesis 
+// Fix - change || to &&
+// Fix - should look like ((temp > 39) && (time >= 4)) 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +170,7 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//Fix - change to minage is less than symbol only - if(minAge > age)
 if(minAge <= age) {
   console.log('no entry');
 } else {
